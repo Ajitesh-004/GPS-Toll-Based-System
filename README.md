@@ -64,7 +64,7 @@ Cities include: Mumbai, Delhi, Bangalore, Hyderabad, Ahmedabad, Chennai, Kolkata
 ##  Demo Video
 
 Watch the working demo of the project here:  
-📽️ [Click to Watch Video](https://drive.google.com/file/d/1mAAxkoQ-tZHMG64wLXAQi7HK-cdnajlt/view?usp=sharing)
+[Click to Watch Video](https://drive.google.com/file/d/1mAAxkoQ-tZHMG64wLXAQi7HK-cdnajlt/view?usp=sharing)
 
 
 ## Contribution
