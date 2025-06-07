@@ -7,22 +7,18 @@ from tkinter import messagebox
 from threading import Thread
 import matplotlib.pyplot as plt
 
-# Global variables for Pygame
 pygame.init()
 width, height = 800, 600
 window = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Vehicle Animation")
 
-# Global variables for Tkinter
 root = tk.Tk()
 root.title("GPS Toll-Based System")
 
-# Colors for Pygame
 white = (255, 255, 255)
 black = (0, 0, 0)
 red = (255, 0, 0)
 
-# Positions for points (for demonstration purposes)
 positions = {
     'Mumbai': (100, 100),
     'Delhi': (300, 100),
@@ -41,7 +37,6 @@ positions = {
     'Bhopal': (400, 600)
 }
 
-# Vehicle properties for Pygame
 vehicle_radius = 10
 
 def create_graph():
@@ -183,7 +178,6 @@ def draw_graph(G, path):
     nx.draw_networkx_edges(G, pos, edgelist=path_edges, edge_color='r', width=2)
     plt.show()
 
-# Tkinter GUI setup
 start_label = tk.Label(root, text="Start Point:")
 start_label.pack()
 start_entry = tk.Entry(root)
@@ -201,8 +195,6 @@ path_label.pack()
 toll_label = tk.Label(root, text="")
 toll_label.pack()
 
-# Create graph
 G = create_graph()
 
-# Start Tkinter main loop
 root.mainloop()
